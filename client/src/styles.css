@@ -1,0 +1,15 @@
+body {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)),
+        /* url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg); */
+        url(https://img.freepik.com/free-vector/hand);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}

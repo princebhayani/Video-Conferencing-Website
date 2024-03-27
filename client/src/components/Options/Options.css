@@ -1,0 +1,87 @@
+/* Center the container */
+.container {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    background-color: rgb(240, 240, 240,0); 
+    margin: 30px 300px 0; /* 10px top margin, 300 on both sides, 0 niche */
+  }
+  
+  /* Style the inner content */
+  .inner-container {
+    background-color: rgb(240, 240, 240,0.8); 
+    padding: 10px 70px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin: 0; 
+  }
+  
+  /* Style the buttons */
+  button {
+    background-color: #0077b6; 
+    color: #ffffff; 
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  button:hover {
+    background-color: #005a96;
+  }
+  
+  h3 {
+    color: #333; 
+  }
+  
+  input {
+    border: 1px solid #ccc; 
+    padding: 8px 20px;
+    border-radius: 5px;
+    margin: 5px 0;
+  }
+  
+  /* Set a different color for the "Copy Your ID" button */
+  #copy-button {
+    background-color: #2bb52b; 
+    color: #ffffff; 
+  }
+  
+  #copy-button:hover {
+    background-color: #008000; 
+  }
+  
+  /* Add some styles for the outer box */
+  .outer-box {
+    background-color: #f0f0f0; 
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    border: 1px solid #ccc; 
+  }
+  
+  /* Style the ID input element */
+  #id-to-call {
+    border: 1px solid #0077b6; 
+    background-color: #f0f0f0; 
+    color: #0077b6; 
+    font-weight: bold;
+    padding: 7.5px 20px;
+  }
+  
+  /* Style for the "Call" button */
+  #call-button {
+    background-color: #0077b6;
+    color: #ffffff; 
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+  }
+  
+  #call-button:hover {
+    background-color: #005a96; 
+  }
+  
